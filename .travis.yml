@@ -1,4 +1,4 @@
 # kickstart travis.
 language: java
 
-install: mvn clean package -DskipTests=true
+install: mvn clean -U install
